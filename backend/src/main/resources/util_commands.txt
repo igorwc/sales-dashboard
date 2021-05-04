@@ -1,0 +1,4 @@
+-- creating postgres docker container
+ 
+
+docker run -dit --name pgdbsds3 -e POSTGRES_PASSWORD=passwd -d postgres:9.6  
